@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.golfgames.app",
+      "sha256_cert_fingerprints": [
+        "FB:14:D5:A0:29:E3:37:A8:3F:A6:C3:4A:E5:24:99:31:8F:20:9D:74:B0:92:D9:64:B1:E1:9F:3E:88:9C:CC:93"
+      ]
+    }
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["7K8M9N2P4Q.com.golfgames.app"],
+        "components": [
+          { "/": "/auth-callback*" },
+          { "/": "/reset-password*" },
+          { "/": "/round/follow/*" }
+        ]
+      }
+    ]
+  }
+}
