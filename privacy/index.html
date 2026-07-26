@@ -22,7 +22,7 @@
 
   <main class="legal">
     <h1>Privacy Policy</h1>
-    <p class="effective">Effective date: April 27, 2026</p>
+    <p class="effective">Effective date: July 26, 2026</p>
 
     <p>This Privacy Policy explains what information GolfGames ("we", "us", "the app") collects, how we use it, who we share it with, and the choices you have. We've tried to write it in plain language. If anything here is unclear, email <a href="mailto:support@golfgames.gg">support@golfgames.gg</a>.</p>
 
@@ -52,7 +52,8 @@
     <ul>
       <li><strong>Account information.</strong> When you sign up, we collect your email address and display name. If you sign in with Google or Apple, we receive your email and the name you've shared with that provider.</li>
       <li><strong>Profile.</strong> An optional username, avatar URL, and any profile fields you choose to fill in.</li>
-      <li><strong>Round data.</strong> Scores you enter, the courses and tees you play, the players in your round, and statistics derived from those scores (handicap, fairway/green hits, putts, etc.).</li>
+      <li><strong>Round data.</strong> Scores you enter, the courses and tees you play, the players in your round, and statistics derived from those scores (fairway and green hits, putts, scoring averages, etc.).</li>
+      <li><strong>GHIN account details (optional).</strong> If you choose to link a GHIN account, we collect the email address, password, and GHIN number you enter. Your GHIN email and password are stored only in your device's secure keychain &mdash; they are never sent to or stored on our servers &mdash; and are used solely to sign in to GHIN on your behalf and read your handicap. Your GHIN number and handicap are stored with your profile on our servers so they appear on your other devices. You can delete all of it at any time from <em>Settings &rarr; GHIN Account</em>.</li>
       <li><strong>Social activity.</strong> Friend connections, friend requests, and activity feed entries you generate (for example, completing a round).</li>
       <li><strong>Support correspondence.</strong> If you email us, we keep the message and our reply.</li>
     </ul>
@@ -62,7 +63,7 @@
       <li><strong>Authentication tokens.</strong> Stored on your device in the operating system's secure storage so you stay signed in.</li>
       <li><strong>Push notification token.</strong> If you grant notification permission, we store an Expo push token tied to your account so we can deliver friend, round, and achievement notifications.</li>
       <li><strong>Sync metadata.</strong> Timestamps that tell us when your scores were last synced from your device to our servers.</li>
-      <li><strong>Crash and error logs.</strong> If the app crashes or hits an error, we may collect diagnostic information (operating system version, app version, the type of error). At launch, this is logged locally only and not sent to a third-party service. If we add a crash-reporting provider in the future, we'll update this policy before turning it on.</li>
+      <li><strong>Crash and error logs.</strong> If the app crashes or hits an error, we collect diagnostic information &mdash; operating system version, app version, the type of error, and a stack trace showing where it happened &mdash; and send it to Sentry, our crash-reporting provider, so we can find and fix the problem. Reports are associated with your account ID so we can tell whether a bug affected one person or many. Crash data is never used for advertising or profiling.</li>
     </ul>
 
     <h3>2.3 Information we do <em>not</em> collect</h3>
@@ -75,7 +76,7 @@
 
     <h2 id="use">3. How we use your information</h2>
     <ul>
-      <li><strong>To run the app.</strong> Authenticate you, save your rounds, calculate your handicap, show your friends' activity, and sync data between your devices.</li>
+      <li><strong>To run the app.</strong> Authenticate you, save your rounds, apply your handicap to net scoring, show your friends' activity, and sync data between your devices.</li>
       <li><strong>To send notifications you've opted into.</strong> Friend requests, round invitations, achievements, and other in-app events. You can disable these any time in your device settings or in <em>Settings → Notifications</em>.</li>
       <li><strong>To provide support.</strong> Diagnose problems and respond to your questions.</li>
       <li><strong>To keep the service safe.</strong> Detect abuse, enforce our Terms, and respond to legal requests.</li>
@@ -91,6 +92,8 @@
       <li><strong>RevenueCat</strong> — manages subscription entitlements (whether you have an active Pro plan). We send RevenueCat your account ID and the platform receipt; RevenueCat tells us if your subscription is active.</li>
       <li><strong>Resend</strong> — sends transactional emails such as signup confirmation and password reset, on our behalf.</li>
       <li><strong>Expo</strong> — delivers push notifications via the Expo push service, which forwards to Apple's APNs and Google's FCM.</li>
+      <li><strong>GHIN (Golf Handicap and Information Network)</strong> &mdash; only if you link a GHIN account. Your GHIN credentials are sent from your device directly to GHIN to sign in and read your handicap; we only ever read, and never post scores to or change anything in your GHIN account. GolfGames is not affiliated with, endorsed by, or sponsored by the USGA or GHIN.</li>
+      <li><strong>Sentry</strong> &mdash; receives crash and error reports (see section 2.2) so we can diagnose problems. We send the error details and your account ID, nothing else.</li>
     </ul>
     <p>We may also disclose information if we're legally required to (subpoena, court order, lawful government request) or to protect the rights, property, or safety of our users or the public. If we ever sell or transfer the business, your information may transfer with it; we'll notify you before that happens.</p>
 
