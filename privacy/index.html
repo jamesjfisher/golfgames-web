@@ -22,7 +22,7 @@
 
   <main class="legal">
     <h1>Privacy Policy</h1>
-    <p class="effective">Effective date: July 26, 2026</p>
+    <p class="effective">Effective date: August 27, 2026</p>
 
     <p>This Privacy Policy explains what information GolfGames ("we", "us", "the app") collects, how we use it, who we share it with, and the choices you have. We've tried to write it in plain language. If anything here is unclear, email <a href="mailto:support@golfgames.gg">support@golfgames.gg</a>.</p>
 
@@ -51,10 +51,11 @@
     <h3>2.1 Information you give us</h3>
     <ul>
       <li><strong>Account information.</strong> When you sign up, we collect your email address and display name. If you sign in with Google or Apple, we receive your email and the name you've shared with that provider.</li>
-      <li><strong>Profile.</strong> An optional username, avatar URL, and any profile fields you choose to fill in.</li>
+      <li><strong>Profile.</strong> An optional username, a profile photo, and any profile fields you choose to fill in. If you set a profile photo, the image file is uploaded to our storage and served from a public URL &mdash; anyone who has that URL can view the image, so please don't use a photo you wouldn't want shared. You can remove it at any time from <em>Settings &rarr; Edit Profile</em>.</li>
       <li><strong>Round data.</strong> Scores you enter, the courses and tees you play, the players in your round, and statistics derived from those scores (fairway and green hits, putts, scoring averages, etc.).</li>
       <li><strong>GHIN account details (optional).</strong> If you choose to link a GHIN account, we collect the email address, password, and GHIN number you enter. Your GHIN email and password are stored only in your device's secure keychain &mdash; they are never sent to or stored on our servers &mdash; and are used solely to sign in to GHIN on your behalf and read your handicap. Your GHIN number and handicap are stored with your profile on our servers so they appear on your other devices. You can delete all of it at any time from <em>Settings &rarr; GHIN Account</em>.</li>
       <li><strong>Social activity.</strong> Friend connections, friend requests, and activity feed entries you generate (for example, completing a round).</li>
+      <li><strong>Voice score entry (optional).</strong> If you grant microphone and speech-recognition permission, you can say a score out loud instead of tapping it. <strong>The audio is sent off your device to your phone's speech-recognition service to be turned into text</strong> &mdash; Apple on iOS, Google on Android &mdash; and is handled under that company's privacy policy, not ours. We never receive, store, or transmit the audio ourselves; only the resulting number reaches the scorecard. The feature runs only while you are holding the voice button, and you can simply not use it, or revoke the microphone permission in your device settings.</li>
       <li><strong>Support correspondence.</strong> If you email us, we keep the message and our reply.</li>
     </ul>
 
@@ -68,7 +69,7 @@
 
     <h3>2.3 Information we do <em>not</em> collect</h3>
     <ul>
-      <li>We don't collect your precise location. The only "location" data in the app is the courses you choose to play, which you select yourself.</li>
+      <li>We don't collect your <em>precise</em> location, and we don't store your location at all. If you ask the app to find courses near you and grant location permission, your device provides an <strong>approximate</strong> position (accurate to roughly 100 metres, not a precise fix), which is used once to look up nearby courses and is not saved to your profile or kept afterwards. You can decline the permission and search for courses by name instead.</li>
       <li>We don't use third-party advertising, ad networks, or advertising identifiers (IDFA / Android Advertising ID).</li>
       <li>We don't see or store your payment card details — purchases are processed entirely by Apple and Google.</li>
       <li>We don't sell your personal information to anyone, ever.</li>
@@ -90,10 +91,11 @@
       <li><strong>Apple Sign In and Google OAuth</strong> — used only when you choose to sign in with Apple or Google. They tell us your email and the name you've consented to share; we don't get your password.</li>
       <li><strong>Apple App Store and Google Play</strong> — process all subscription purchases. We never see your card or bank details.</li>
       <li><strong>RevenueCat</strong> — manages subscription entitlements (whether you have an active Pro plan). We send RevenueCat your account ID and the platform receipt; RevenueCat tells us if your subscription is active.</li>
+      <li><strong>Apple and Google speech recognition</strong> &mdash; only if you use voice score entry. The audio you speak is sent from your device to Apple (on iOS) or Google (on Android) to be transcribed, and is handled under that company's privacy policy. It does not pass through our servers and we never receive the recording.</li>
       <li><strong>Resend</strong> — sends transactional emails such as signup confirmation and password reset, on our behalf.</li>
       <li><strong>Expo</strong> — delivers push notifications via the Expo push service, which forwards to Apple's APNs and Google's FCM.</li>
       <li><strong>GHIN (Golf Handicap and Information Network)</strong> &mdash; only if you link a GHIN account. Your GHIN credentials are sent from your device directly to GHIN to sign in and read your handicap; we only ever read, and never post scores to or change anything in your GHIN account. GolfGames is not affiliated with, endorsed by, or sponsored by the USGA or GHIN.</li>
-      <li><strong>Sentry</strong> &mdash; receives crash and error reports (see section 2.2) so we can diagnose problems. We send the error details and your account ID, nothing else.</li>
+      <li><strong>Sentry</strong> &mdash; receives crash and error reports (see section 2.2) so we can diagnose problems. Along with the error details we attach your account ID and a small amount of golf context &mdash; your handicap index, how many rounds you have played, when you joined, and your preferred scoring format &mdash; so we can tell whether a bug affects a particular kind of player. We do not send your email address, your name, or your scores.</li>
     </ul>
     <p>We may also disclose information if we're legally required to (subpoena, court order, lawful government request) or to protect the rights, property, or safety of our users or the public. If we ever sell or transfer the business, your information may transfer with it; we'll notify you before that happens.</p>
 
