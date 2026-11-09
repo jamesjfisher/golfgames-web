@@ -185,3 +185,71 @@ footer.site {
   font-size: 14px;
 }
 footer.site a { color: var(--ink-mute); margin: 0 10px; }
+
+/* User manual (GolfGames #1095) */
+main.manual h1 { font-size: 32px; margin: 8px 0 4px; color: var(--green); }
+main.manual .lede { color: var(--ink-soft); font-size: 18px; margin: 0 0 28px; }
+main.manual h2 {
+  font-size: 22px;
+  margin: 40px 0 8px;
+  color: var(--green-dark);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 6px;
+}
+main.manual h3 { font-size: 18px; margin: 22px 0 6px; }
+main.manual p, main.manual li { color: var(--ink-soft); }
+main.manual ul, main.manual ol { padding-left: 22px; }
+main.manual li { margin-bottom: 6px; }
+main.manual .crumbs { font-size: 14px; color: var(--ink-mute); margin-bottom: 8px; }
+main.manual .crumbs a { color: var(--ink-mute); }
+main.manual .tip {
+  background: #fff8e1;
+  border-left: 4px solid var(--gold);
+  padding: 12px 16px;
+  border-radius: 6px;
+  margin: 16px 0;
+  font-size: 15px;
+}
+main.manual .shots {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin: 20px 0 8px;
+}
+@media (min-width: 600px) {
+  main.manual .shots { grid-template-columns: 1fr 1fr; }
+  main.manual .shots.one { grid-template-columns: 1fr; max-width: 330px; }
+}
+main.manual figure { margin: 0; text-align: center; }
+main.manual figure img {
+  width: 100%;
+  max-width: 330px;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  background: var(--bg-soft);
+}
+main.manual figcaption { font-size: 14px; color: var(--ink-mute); margin-top: 8px; }
+main.manual .toc-grid { display: grid; grid-template-columns: 1fr; gap: 12px; margin: 12px 0 8px; }
+@media (min-width: 600px) { main.manual .toc-grid { grid-template-columns: 1fr 1fr; } }
+main.manual .toc-grid a, main.manual .toc-grid .soon {
+  display: block;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-soft);
+  text-decoration: none;
+}
+main.manual .toc-grid a strong { color: var(--green-dark); display: block; }
+main.manual .toc-grid a span, main.manual .toc-grid .soon span { color: var(--ink-soft); font-size: 15px; }
+main.manual .toc-grid a:hover { border-color: var(--green); }
+main.manual .toc-grid .soon strong { color: var(--ink-mute); display: block; }
+main.manual .toc-grid .soon em { font-size: 13px; color: var(--ink-mute); font-style: normal; }
+main.manual .next { margin-top: 40px; font-weight: 600; }
+
+@media (max-width: 600px) {
+  header.site .wrap { flex-wrap: wrap; gap: 8px; }
+  header.site nav { display: flex; flex-wrap: wrap; gap: 4px 16px; }
+  header.site nav a { margin-left: 0; }
+}

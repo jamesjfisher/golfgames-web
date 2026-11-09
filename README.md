@@ -7,6 +7,7 @@ Served at `https://golfgames.gg/`. Three pages:
 - `/` — landing
 - `/privacy/` — privacy policy
 - `/terms/` — terms of service
+- `/manual/` — user manual (GolfGames #1095). One folder per section, game pages at `/manual/games/<slug>/`, screenshots in `manual/img/<section>/` (660px wide, captured per GolfGames `scripts/manual/README.md`)
 
 The mobile app links to `/privacy` and `/terms` from the paywall and Settings → Legal (see `src/config/monetization.ts → LEGAL_URLS`). Apple verifies these URLs during App Store review. If they don't resolve over HTTPS at submission time, the binary is rejected.
 
