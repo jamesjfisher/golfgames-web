@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vegas · GolfGames User Manual</title>
+  <meta name="description" content="How Vegas works in GolfGames: two teams of two, both scores made into one number, the birdie flip, rotating partners, and settling up.">
+  <link rel="canonical" href="https://golfgames.gg/manual/games/vegas/">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="/">Golf<span class="gold">Games</span></a>
+      <nav>
+        <a href="/manual/">User Manual</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/delete-account/">Delete Account</a>
+      </nav>
+    </div>
+  </header>
+  <main class="manual">
+    <div class="crumbs"><a href="/manual/">User Manual</a> › <a href="/manual/#games">Games</a> › Vegas</div>
+    <h1>Vegas</h1>
+    <p class="lede">A team game for four in which both partners' scores count. A team's two scores are written as one number, low first, so a 4 and a 5 make <strong>45</strong>. The lower number wins the hole, and the hole is worth the difference.</p>
+
+    <table class="glance">
+      <tr><th>Players</th><td>Exactly 4, in two teams of two</td></tr>
+      <tr><th>Scoring</th><td>Each team's two scores make one number. The lower number wins the difference in points.</td></tr>
+      <tr><th>Money</th><td><span class="label">What a point is worth</span>: Free, $0.10, $0.25, $1 or Custom. $0.25 is the default.</td></tr>
+    </table>
+
+    <h2 id="setup">Setting it up</h2>
+    <p>On the <strong>Format</strong> step, add <span class="label">Vegas</span> ("Both partners count — two scores make one number, low first") and open its options.</p>
+    <ul>
+      <li><span class="label">Who's playing</span>: exactly four. Anyone else in the group keeps their own card and sits this bet out.</li>
+      <li><span class="label">Teams</span>: the order of the four players. The first two play the last two: "These two pairs play each other for the whole round." Move players with the arrows, then tap <span class="label">Use these teams</span>. The round can't start until you do. When partners change during the round, this row is called <span class="label">Rotation</span>, sets the first pairing, and the button reads <span class="label">Use this rotation</span>.</li>
+      <li><span class="label">How often partners change</span>: <span class="label">Whole round</span> (the default), "Partners are fixed. The two teams you pick below play each other all the way." <span class="label">Every 9</span>, "Partners are re-drawn at the turn, so you play two of the three pairings." Or <span class="label">Every 6</span>, "Partners are re-drawn every six holes, so everyone partners everyone." All three work on a 9-hole round.</li>
+      <li><span class="label">Scoring</span> (Gross or Net) and <span class="label">Handicap allowance</span>. Net uses the difference: the lowest handicap of the four plays off scratch and the others get the difference, after the allowance.</li>
+      <li><span class="label">What a point is worth</span>: "Dollars a point, and a hole is worth the difference between the two team numbers." A hole is often worth 10 or 20 points, so a small amount goes a long way.</li>
+    </ul>
+    <p>Vegas can't share a round with Four-Ball, Wolf, Abilene, 6-6-6 or Banker.</p>
+
+    <h2 id="scoring">How a hole is scored</h2>
+    <p>Once all four have a score, the hole is worked out in this order:</p>
+    <ol>
+      <li><strong>Each team's number:</strong> its two scores, lower first. A 4 and a 5 is 45; a 3 and a 6 is 36. If either score is 10 or more, the higher one goes first: a 4 and a 12 is 124, not 412.</li>
+      <li><strong>The birdie flip:</strong> a natural birdie flips the other team's number, higher score first, so their 47 becomes 74. A natural birdie is a birdie or better made without a handicap stroke on the hole. If both teams have one, nothing flips. A number already written high first stays as it is.</li>
+      <li><strong>The lower number wins.</strong> The hole is worth the difference: 45 against 56 is worth 11 points. Equal numbers halve the hole for nothing.</li>
+      <li><strong>Two birdies double it.</strong> If both players on the winning team made a natural birdie, the hole's points double.</li>
+    </ol>
+    <p>Each player on the winning team gains the points, and each player on the losing team loses them.</p>
+
+    <h3 id="rotation">When partners change</h3>
+    <p>With the players in order A, B, C, D, the pairings are A &amp; B against C &amp; D, then A &amp; C against B &amp; D, then A &amp; D against B &amp; C.</p>
+    <ul>
+      <li><span class="label">Whole round</span>: A &amp; B against C &amp; D for every hole.</li>
+      <li><span class="label">Every 9</span>: the first pairing plays holes 1–9, the second holes 10–18.</li>
+      <li><span class="label">Every 6</span>: one pairing each for holes 1–6, 7–12 and 13–18. On a 9-hole round, the first pairing plays 1–6 and the second plays 7–9.</li>
+    </ul>
+    <p>Vegas has no presses.</p>
+
+    <h2 id="example">Worked example</h2>
+    <p>Alex and Sam play Jordan and Casey for the whole round, gross, $0.25 a point.</p>
+    <div class="ex-wrap"><table class="ex">
+      <tr><th class="l">Hole (par)</th><th>1 (4)</th><th>2 (4)</th><th>3 (3)</th><th>4 (5)</th></tr>
+      <tr><td class="l">Alex</td><td>4</td><td>3</td><td>3</td><td>4</td></tr>
+      <tr><td class="l">Sam</td><td>5</td><td>5</td><td>4</td><td>6</td></tr>
+      <tr><td class="l">Jordan</td><td>4</td><td>4</td><td>2</td><td>4</td></tr>
+      <tr><td class="l">Casey</td><td>4</td><td>7</td><td>2</td><td>5</td></tr>
+      <tr><td class="l">Alex &amp; Sam</td><td>45</td><td class="win">35</td><td>43 (flipped)</td><td>46</td></tr>
+      <tr><td class="l">Jordan &amp; Casey</td><td class="win">44</td><td>74 (flipped)</td><td class="win">22</td><td class="win">45</td></tr>
+      <tr><td class="l">Points</td><td>1</td><td>39</td><td>21 × 2 = 42</td><td>1</td></tr>
+    </table></div>
+    <ul>
+      <li><strong>Hole 1:</strong> 44 beats 45 by 1 point.</li>
+      <li><strong>Hole 2:</strong> Alex's birdie flips Jordan and Casey's 47 to 74. Alex and Sam's 35 wins by 39.</li>
+      <li><strong>Hole 3:</strong> Jordan and Casey both birdie. Alex and Sam's 34 flips to 43, and because both winners made birdie, the 21-point difference doubles to 42.</li>
+      <li><strong>Hole 4:</strong> Alex and Jordan both birdie, so neither number flips. 45 beats 46 by 1. Only one of the winners made birdie, so nothing doubles.</li>
+    </ul>
+    <div class="ex-wrap"><table class="ex">
+      <tr><th class="l">Player</th><th>Points</th><th>At $0.25</th></tr>
+      <tr><td class="l">Alex</td><td>−5</td><td>−$1.25</td></tr>
+      <tr><td class="l">Sam</td><td>−5</td><td>−$1.25</td></tr>
+      <tr><td class="l">Jordan</td><td>+5</td><td class="money">+$1.25</td></tr>
+      <tr><td class="l">Casey</td><td>+5</td><td class="money">+$1.25</td></tr>
+    </table></div>
+    <p>Alex and Sam won 39 points and lost 1 + 42 + 1 = 44, so each is 5 points down.</p>
+
+    <h2 id="settle">Settling up</h2>
+    <ul>
+      <li><strong>Your points times the amount.</strong> Points are kept per player, so with rotating partners each player's total is their own.</li>
+      <li><strong>At the end of the round</strong>, a hole without all four scores pays nothing. A partial or nine-hole round settles what was played.</li>
+    </ul>
+
+    <h2 id="good-to-know">Good to know</h2>
+    <ul>
+      <li><strong>Picking up</strong> still gives your team a digit: a picked-up ball scores net double bogey, the par plus two plus any strokes you get on the hole. It never counts as a birdie.</li>
+      <li><strong>In a net game</strong>, a birdie made with a handicap stroke on the hole doesn't flip anything, and no score counts below 1.</li>
+      <li><strong>The net strokes come off the low player's handicap</strong>, not your own, as in 6-6-6 and 9-Point.</li>
+    </ul>
+
+    <p class="next"><a href="/manual/#games">← All games</a></p>
+  </main>
+
+  <footer class="site">
+    <a href="/manual/">User Manual</a>
+    <a href="/privacy/">Privacy</a>
+    <a href="/terms/">Terms</a>
+    <a href="/delete-account/">Delete Account</a>
+    <a href="mailto:support@golfgames.gg">Contact</a>
+    <div style="margin-top:8px">© 2026 GolfGames. All rights reserved.</div>
+  </footer>
+</body>
+</html>
