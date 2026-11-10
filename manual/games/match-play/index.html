@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Match Play · GolfGames User Manual</title>
+  <meta name="description" content="How Match Play works in GolfGames: who plays who, winning holes, 3&2 and 1 UP results, handicaps, picking up, and settling up a match.">
+  <link rel="canonical" href="https://golfgames.gg/manual/games/match-play/">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="/">Golf<span class="gold">Games</span></a>
+      <nav>
+        <a href="/manual/">User Manual</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/delete-account/">Delete Account</a>
+      </nav>
+    </div>
+  </header>
+  <main class="manual">
+    <div class="crumbs"><a href="/manual/">User Manual</a> › <a href="/manual/#games">Games</a> › Match Play</div>
+    <h1>Match Play</h1>
+    <p class="lede">Match Play is decided hole by hole. Win a hole and you go one up; the player who wins more holes wins the match.</p>
+
+    <table class="glance">
+      <tr><th>Players</th><td>2 or more, playing head-to-head matches</td></tr>
+      <tr><th>Matches</th><td>With 2 players, the match is set for you. With 3 or more, you choose who plays who.</td></tr>
+      <tr><th>Scoring</th><td>Gross (default) or net, with an optional handicap allowance</td></tr>
+      <tr><th>Money</th><td><span class="label">Match worth</span>: Free, $5, $10 or $20 a match</td></tr>
+    </table>
+
+    <h2 id="setup">Setting it up</h2>
+    <p>On the New Round <strong>Format</strong> step, add <span class="label">Match Play</span> ("Hole-by-hole winner") and open its options.</p>
+    <ul>
+      <li><span class="label">Who plays who</span>: tap two players to pair them.
+        <ul>
+          <li>You can set up several matches in one round, and one player can be in more than one.</li>
+          <li>The screen shows what that could cost: "N matches at $X each — up to $Y across the round for a player in all of them."</li>
+          <li>Anyone not in a match still plays the round and keeps a full stroke play card.</li>
+          <li>With 3 or more players the round won't start until at least one match is set.</li>
+        </ul>
+      </li>
+      <li><span class="label">Scoring</span>: <span class="label">Gross</span> ("Raw scores decide each hole.") or <span class="label">Net</span> ("Handicap strokes are applied per hole, then the hole is decided.").</li>
+      <li><span class="label">Handicap allowance</span> (Net only): 100%, 90%, 80% or Custom.</li>
+      <li><span class="label">Match worth</span>: the same amount applies to every match, in whole dollars. Free is the default.</li>
+    </ul>
+
+    <h2 id="scoring">How it's scored</h2>
+    <ul>
+      <li><strong>Each hole:</strong> the lower score wins it, and equal scores halve it.</li>
+      <li><strong>The running score</strong> counts holes won minus holes lost: <strong>AS</strong> (all square), <strong>2 UP</strong> or <strong>2 DN</strong>.</li>
+      <li><strong>Dormie:</strong> you're as many holes up as there are left to play.</li>
+      <li><strong>The match ends early</strong> once one player is more holes up than there are holes left. The result is written as holes up and holes left: <strong>4&amp;3</strong> means 4 up with 3 to play.</li>
+      <li><strong>A match decided on the last hole</strong> reads <strong>1 UP</strong> (or 2 UP). A match level after the last hole is <strong>All Square</strong>, a halved match.</li>
+      <li><strong>Net matches:</strong> each player gets their own playing handicap (course handicap × allowance), spread over the holes by stroke index. The hole is decided on the net scores.</li>
+    </ul>
+    <p>Once a match is decided, the scorecard's <span class="label">Match</span> total stays at the result (for example 4&amp;3), while the hole cells keep showing the running count if you play on.</p>
+
+    <h2 id="example">Worked example</h2>
+    <p>Alex plays Sam, gross, with <span class="label">Match worth</span> set to $10.</p>
+    <div class="ex-wrap"><table class="ex">
+      <tr><th class="l">Hole</th><th>1</th><th>2</th><th>3</th><th>4</th></tr>
+      <tr><td class="l">Par</td><td>4</td><td>4</td><td>3</td><td>5</td></tr>
+      <tr><td class="l">Alex</td><td class="win">4</td><td>5</td><td>3</td><td class="win">4</td></tr>
+      <tr><td class="l">Sam</td><td>5</td><td>5</td><td class="win">2</td><td>5</td></tr>
+      <tr><td class="l">Match (Alex)</td><td>1 UP</td><td>1 UP</td><td>AS</td><td>1 UP</td></tr>
+    </table></div>
+    <p>Alex wins holes 1 and 4, Sam wins hole 3, and hole 2 is halved: Alex is <strong>1 UP</strong> after four. Alex goes on to win holes 6, 9 and 10, and after hole 15 is 4 up with 3 to play. The match ends there: <strong>Alex wins 4&amp;3</strong>, and Sam owes Alex <span class="money">$10</span>.</p>
+
+    <h2 id="settle">Settling up</h2>
+    <ul>
+      <li><strong>A decided match:</strong> the loser owes the winner the match amount.</li>
+      <li><strong>Several matches:</strong> a player in more than one gets the total of all of them.</li>
+      <li><strong>No payout:</strong> a halved match pays nothing, and so does a match that's still undecided when a round is abandoned. The leader isn't awarded it.</li>
+      <li><strong>No presses:</strong> Match Play has none. For presses, play <a href="/manual/games/nassau/">Nassau</a>.</li>
+    </ul>
+
+    <h2 id="good-to-know">Good to know</h2>
+    <ul>
+      <li><strong>Picking up</strong> loses the hole. If both players pick up, the hole is halved.</li>
+      <li><strong>An unscored hole</strong> (one player has no score yet) is skipped until both scores are in.</li>
+      <li><strong>9-hole rounds</strong> play a 9-hole match, and results like 3&amp;2 work the same way.</li>
+      <li><strong>When a match is decided</strong>, you'll see "<em>Name</em> wins 4&amp;3". If it's the round's only game, you can go to the Round Summary or keep playing.</li>
+    </ul>
+
+    <p class="next"><a href="/manual/#games">← All games</a></p>
+  </main>
+
+  <footer class="site">
+    <a href="/manual/">User Manual</a>
+    <a href="/privacy/">Privacy</a>
+    <a href="/terms/">Terms</a>
+    <a href="/delete-account/">Delete Account</a>
+    <a href="mailto:support@golfgames.gg">Contact</a>
+    <div style="margin-top:8px">© 2026 GolfGames. All rights reserved.</div>
+  </footer>
+</body>
+</html>

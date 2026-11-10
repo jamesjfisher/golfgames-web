@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Skins · GolfGames User Manual</title>
+  <meta name="description" content="How Skins works in GolfGames: winning a hole outright, carry-overs, picking up, players joining mid-round, and how each skin is settled.">
+  <link rel="canonical" href="https://golfgames.gg/manual/games/skins/">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="/">Golf<span class="gold">Games</span></a>
+      <nav>
+        <a href="/manual/">User Manual</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/delete-account/">Delete Account</a>
+      </nav>
+    </div>
+  </header>
+  <main class="manual">
+    <div class="crumbs"><a href="/manual/">User Manual</a> › <a href="/manual/#games">Games</a> › Skins</div>
+    <h1>Skins</h1>
+    <p class="lede">Every hole is worth a skin. The player with the lowest score on a hole, outright, wins it. If two or more tie for low, the skin carries over and the next hole is worth more.</p>
+
+    <table class="glance">
+      <tr><th>Players</th><td>2 or more. Everyone in the game plays everyone, hole by hole.</td></tr>
+      <tr><th>Scoring</th><td>Gross (default) or net, with an optional handicap allowance</td></tr>
+      <tr><th>Money</th><td><span class="label">Skin worth</span>: Free, $1, $2 or $5 a skin, from each other player</td></tr>
+    </table>
+
+    <h2 id="setup">Setting it up</h2>
+    <p>On the <strong>Format</strong> step, add <span class="label">Skins</span> ("Win holes for skins") and open its options.</p>
+    <ul>
+      <li><span class="label">Who's playing</span>: who is in the skins. Anyone left out still plays the round and keeps a full stroke play card.</li>
+      <li><span class="label">Scoring</span>: <span class="label">Gross</span> ("Raw scores decide each skin.") or <span class="label">Net</span> ("Handicap strokes are applied per hole, then the skin is decided.").</li>
+      <li><span class="label">Handicap allowance</span> (Net only): 100%, 90%, 80% or Custom.</li>
+      <li><span class="label">Skin worth</span>: whole dollars a skin. Enter 0 to play for nothing.</li>
+    </ul>
+
+    <h2 id="scoring">How it's scored</h2>
+    <ul>
+      <li><strong>An outright low score</strong> wins the hole's skin, plus every skin that has carried over to it.</li>
+      <li><strong>A tie for low</strong> carries the skin over: the next hole is worth one more. Carry-overs keep stacking until someone wins a hole outright.</li>
+      <li><strong>Picking up:</strong> a player who picked up can't win the hole, and doesn't hold it up for anyone else. If everyone picks up, the skin carries over, as with a tie.</li>
+      <li><strong>An unscored hole</strong> (anyone in the skins still has no score) decides nothing until the scores are in. It isn't a carry-over, and holes after it are still decided normally.</li>
+      <li><strong>Carries left at the end:</strong> skins still carrying after the last hole aren't won by anyone, and aren't paid. The game card shows them as <span class="label">riding</span> or <span class="label">Carrying over</span>.</li>
+    </ul>
+
+    <h2 id="example">Worked example</h2>
+    <p>Alex, Sam, Jordan and Casey play gross skins at <span class="label">Skin worth</span> $2.</p>
+    <div class="ex-wrap"><table class="ex">
+      <tr><th class="l">Hole</th><th>1</th><th>2</th><th>3</th><th>4</th></tr>
+      <tr><td class="l">Par</td><td>4</td><td>4</td><td>3</td><td>5</td></tr>
+      <tr><td class="l">Alex</td><td>4</td><td>5</td><td>3</td><td class="win">4</td></tr>
+      <tr><td class="l">Sam</td><td>4</td><td>5</td><td class="win">2</td><td>5</td></tr>
+      <tr><td class="l">Jordan</td><td>5</td><td>5</td><td>3</td><td>5</td></tr>
+      <tr><td class="l">Casey</td><td>4</td><td>6</td><td>4</td><td>6</td></tr>
+      <tr><td class="l">Skins</td><td>tie, carries</td><td>tie, carries</td><td>Sam wins 3</td><td>Alex wins 1</td></tr>
+    </table></div>
+    <p>Holes 1 and 2 are tied for low, so both skins carry. Sam's birdie on hole 3 wins it outright, along with the two carried skins: <strong>3 skins</strong>. Alex wins hole 4: <strong>1 skin</strong>.</p>
+    <p>Each skin is worth $2 from each of the other three players:</p>
+    <ul>
+      <li><strong>Sam</strong> collects 3 × $2 × 3 = $18 and pays Alex $2, for <span class="money">+$16</span>.</li>
+      <li><strong>Alex</strong> collects 1 × $2 × 3 = $6 and pays Sam $6, for <span class="money">$0</span>.</li>
+      <li><strong>Jordan and Casey</strong> pay $6 to Sam and $2 to Alex, so <span class="money">−$8</span> each.</li>
+    </ul>
+
+    <h2 id="settle">Settling up</h2>
+    <p>For each skin, every <em>other</em> player in the skins pays the winner the skin's worth, and a hole that won a carry-over pays that many skins. It always balances: what the winners collect is exactly what everyone else pays. With 4 players at $2, one skin is $6 to the winner.</p>
+
+    <h2 id="joining">Joining partway through</h2>
+    <p>A player added during the round is in the skins from their Skins start hole onward.</p>
+    <ul>
+      <li><strong>Back-filled holes:</strong> holes they fill in from before they joined count on their stroke play card, but not in the skins.</li>
+      <li><strong>A pot that was already carrying</strong> when they joined can only be won by the players who were in when it started. The new player joins on the hole after that pot is won, and pays nothing for those holes.</li>
+    </ul>
+
+    <p class="next"><a href="/manual/#games">← All games</a></p>
+  </main>
+
+  <footer class="site">
+    <a href="/manual/">User Manual</a>
+    <a href="/privacy/">Privacy</a>
+    <a href="/terms/">Terms</a>
+    <a href="/delete-account/">Delete Account</a>
+    <a href="mailto:support@golfgames.gg">Contact</a>
+    <div style="margin-top:8px">© 2026 GolfGames. All rights reserved.</div>
+  </footer>
+</body>
+</html>

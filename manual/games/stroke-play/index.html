@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stroke play · GolfGames User Manual</title>
+  <meta name="description" content="How GolfGames scores every round as stroke play: totals, score to par, course handicap, where handicap strokes fall, and net scores.">
+  <link rel="canonical" href="https://golfgames.gg/manual/games/stroke-play/">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="/">Golf<span class="gold">Games</span></a>
+      <nav>
+        <a href="/manual/">User Manual</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/delete-account/">Delete Account</a>
+      </nav>
+    </div>
+  </header>
+  <main class="manual">
+    <div class="crumbs"><a href="/manual/">User Manual</a> › <a href="/manual/#games">Games</a> › Stroke play</div>
+    <h1>Stroke play</h1>
+    <p class="lede">Every round in GolfGames is a stroke play round. You count every stroke, and the fewest strokes wins. Any games you add are scored on top of it.</p>
+
+    <table class="glance">
+      <tr><th>Players</th><td>Any number, including just you</td></tr>
+      <tr><th>Turned on</th><td>Always. The Format step says <span class="label">Stroke Play is always on</span>.</td></tr>
+      <tr><th>Handicaps</th><td>Each player's course handicap, worked out from their Handicap Index and their tee</td></tr>
+      <tr><th>Money</th><td>None. Stroke play itself never settles up; the games you add do.</td></tr>
+    </table>
+
+    <h2 id="scoring">How it's scored</h2>
+    <ul>
+      <li><strong>Total</strong> is your strokes added up over the holes you've scored.</li>
+      <li><strong>To par</strong> compares that total with par for the same holes. It shows as <strong>E</strong> (even), <strong>+3</strong> or <strong>−2</strong>.</li>
+      <li><strong>Net</strong> is your total minus the handicap strokes you received on those holes. Round Detail and the Round Summary always show it. With no handicap, net equals gross.</li>
+    </ul>
+
+    <h2 id="handicap">Your course handicap</h2>
+    <p>When the round starts, each player's <strong>course handicap</strong> is worked out from their Handicap Index and the tee they're playing:</p>
+    <p style="text-align:center"><strong>Handicap Index × Slope ÷ 113 + (Course Rating − Par)</strong>, rounded to a whole number.</p>
+    <ul>
+      <li><strong>Each player can play their own tee.</strong> On the Players step, the <span class="label">TEE</span> column sets it, and each player's course handicap uses their own tee's rating and slope. If players are on different tees, group screens show <span class="label">Mixed tees</span>.</li>
+      <li><strong>No handicap?</strong> Leave <span class="label">HCP</span> blank to play off scratch. The cell shows <span class="label">Scr</span>.</li>
+      <li><strong>9-hole rounds</strong> use half your Handicap Index.</li>
+    </ul>
+
+    <h2 id="strokes">Where handicap strokes fall</h2>
+    <p>Every hole has a <strong>stroke index</strong> from 1 (hardest) to 18 (easiest). With a course handicap of 8, you get one stroke on stroke index 1 to 8. With 24, you get one stroke on every hole, and a second on stroke index 1 to 6. Strokes follow <em>your own tee's</em> stroke indexes. On a 9-hole round the nine holes are re-ranked 1 to 9.</p>
+    <p>A net score on a hole never goes below 1.</p>
+    <div class="tip"><strong>Plus handicaps:</strong> a plus handicap (shown as <strong>+2</strong>) receives no strokes, and GolfGames does not add strokes back to a plus player's score. Their net score is the same as their gross score.</div>
+
+    <h2 id="example">Worked example</h2>
+    <p>Alex (Handicap Index 8.4) and Casey (22.1) play the same tee: slope 125, course rating 71.2, par 72. Alex's course handicap is <strong>8</strong> and Casey's is <strong>24</strong>.</p>
+    <div class="ex-wrap"><table class="ex">
+      <tr><th class="l">Hole</th><th>1</th><th>2</th><th>3</th></tr>
+      <tr><td class="l">Par · stroke index</td><td>4 · 7</td><td>4 · 1</td><td>3 · 15</td></tr>
+      <tr><td class="l">Alex: gross / strokes / net</td><td>5 / 1 / <strong>4</strong></td><td>5 / 1 / <strong>4</strong></td><td>3 / 0 / <strong>3</strong></td></tr>
+      <tr><td class="l">Casey: gross / strokes / net</td><td>6 / 1 / <strong>5</strong></td><td>7 / 2 / <strong>5</strong></td><td>4 / 1 / <strong>3</strong></td></tr>
+    </table></div>
+    <p>On hole 2, the hardest hole, Casey gets two strokes because 24 is more than 18. On hole 3 (stroke index 15) Alex's 8 strokes don't reach, but Casey's do. After three holes Alex is 13 gross / 11 net, and Casey is 17 gross / 13 net.</p>
+
+    <h2 id="gross-net">Gross and net in games</h2>
+    <ul>
+      <li><strong>Each game has its own setting.</strong> The <span class="label">Scoring</span> row offers <span class="label">Gross</span> or <span class="label">Net</span>, and gross is always the default. Stroke play has no such setting of its own.</li>
+      <li><strong>Handicap allowance.</strong> A net game also has a <span class="label">Handicap allowance</span> row: 100%, 90%, 80% or Custom. Each player then plays that game off that percentage of their course handicap, rounded to the nearest stroke. It applies only to that game. The round's own Net total always uses the full course handicap.</li>
+      <li><strong>The scorecard's Gross/Net switch only changes what you see.</strong> It doesn't change who wins or what anyone owes. In net view the score row is labelled <span class="label">Net</span>.</li>
+    </ul>
+
+    <h2 id="pick-ups">Picking up</h2>
+    <p>If you pick up on a hole, mark it <span class="label">✕ Picked up</span> on the hole screen.</p>
+    <ul>
+      <li><strong>In your stroke play total and to-par</strong>, a picked-up hole doesn't count at all. It still counts as a hole played for "thru".</li>
+      <li><strong>In match games</strong> (Match Play, Nassau match play, Four-Ball match play), a pick-up loses the hole. In Skins, a player who picked up can't win the hole.</li>
+      <li><strong>In games that keep a running total</strong> (Nassau stroke, Four-Ball stroke play, Vegas), it counts as a net double bogey.</li>
+      <li><strong>Stats:</strong> a round with a pick-up is left out of your scoring average, best round and trend.</li>
+    </ul>
+
+    <h2 id="not-done">What GolfGames doesn't do</h2>
+    <ul>
+      <li><strong>No posting.</strong> It doesn't post scores to GHIN or calculate a Handicap Index. You enter your index, or <a href="/manual/getting-started/#ghin">link GHIN</a> to keep it up to date.</li>
+      <li><strong>No per-hole cap.</strong> It doesn't cap stroke play totals per hole. A round's rating in Round Detail does cap at net double bogey, and says so.</li>
+    </ul>
+
+    <p class="next"><a href="/manual/#games">← All games</a></p>
+  </main>
+
+  <footer class="site">
+    <a href="/manual/">User Manual</a>
+    <a href="/privacy/">Privacy</a>
+    <a href="/terms/">Terms</a>
+    <a href="/delete-account/">Delete Account</a>
+    <a href="mailto:support@golfgames.gg">Contact</a>
+    <div style="margin-top:8px">© 2026 GolfGames. All rights reserved.</div>
+  </footer>
+</body>
+</html>
