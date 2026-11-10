@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Banker · GolfGames User Manual</title>
+  <meta name="description" content="How Banker works in GolfGames: the rotating banker, one-on-one matches against every challenger, in or out, the hammer, Blind and High-Risk Banker, presses, and settling up.">
+  <link rel="canonical" href="https://golfgames.gg/manual/games/banker/">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="/">Golf<span class="gold">Games</span></a>
+      <nav>
+        <a href="/manual/">User Manual</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/delete-account/">Delete Account</a>
+      </nav>
+    </div>
+  </header>
+  <main class="manual">
+    <div class="crumbs"><a href="/manual/">User Manual</a> › <a href="/manual/#games">Games</a> › Banker</div>
+    <h1>Banker</h1>
+    <p class="lede">On every hole one player is the <strong>banker</strong>. The banker plays a separate one-on-one match against each of the others, all on the same hole. A banker can win one match, lose another and halve a third, all at once.</p>
+
+    <table class="glance">
+      <tr><th>Players</th><td>3 or more (up to 5, the size of a group)</td></tr>
+      <tr><th>Scoring</th><td>Low score wins each match. A tie is a push.</td></tr>
+      <tr><th>Money</th><td><span class="label">The wager</span>: a <span class="label">Fixed stake</span> of Free, $2, $5, $10 or Other a match ($5 is the default), or <span class="label">Table stakes</span>.</td></tr>
+    </table>
+
+    <h2 id="setup">Setting it up</h2>
+    <p>On the <strong>Format</strong> step, add <span class="label">Banker</span> and open its options.</p>
+    <ul>
+      <li><span class="label">Who's playing</span>: three or more of the group.</li>
+      <li><span class="label">Tee order</span>: sets who banks first. Move players up or down, then tap <span class="label">Use this order</span>.</li>
+      <li><span class="label">Who banks the next hole</span>:
+        <ul>
+          <li><span class="label">In turn</span> (the default): "One hole each, in tee order, wrapping round. Everybody banks the same number of holes, give or take one."</li>
+          <li><span class="label">Hole winner</span>: "Whoever wins a hole banks the next one." The lowest score on the previous hole banks. If that's tied, the group picks.</li>
+          <li><span class="label">Until beaten</span>: "The banker keeps the bank until somebody beats them outright." Matching the banker's score isn't enough.</li>
+        </ul>
+        Hole 1 always goes to the first player in the tee order.</li>
+      <li><span class="label">Scoring</span> (Gross or Net) and <span class="label">Handicap allowance</span>. In a net game each player gets strokes off their own handicap, after the allowance.</li>
+      <li><span class="label">The wager</span>: <span class="label">Fixed stake</span> ("One amount for the whole round, set now.") or <span class="label">Table stakes</span> ("The banker names it each hole, inside a range you set now."). Table stakes adds a <span class="label">Wager range</span> row: $1–$5, $2–$20, $5–$50 or Custom.</li>
+    </ul>
+    <p>Then the house rules, each a switch:</p>
+    <ul>
+      <li><span class="label">Blind Banker</span> (off by default): "The banker calls it before seeing the hole, and every match on that hole is worth double."</li>
+      <li><span class="label">Hammer</span> (on by default): "Either side may double this hole. The other takes it, hammers back, or concedes it. Between those two players only — it ends with the hole."</li>
+      <li><span class="label">Par 3s triple</span> (on by default): "On a par 3 each hammer triples instead of doubling." It needs Hammer on.</li>
+      <li><span class="label">High-Risk Banker</span> (off by default): "The banker takes on the whole field, with nobody sitting a hole out."</li>
+      <li><span class="label">Presses</span> (on by default): "A challenger who is down to the banker may open a new bet running to the end of the round. The original carries on beside it."</li>
+    </ul>
+    <p>Banker can't share a round with Four-Ball, Abilene, Wolf, 6-6-6 or Vegas.</p>
+
+    <h2 id="scoring">How a hole is scored</h2>
+    <p>Every challenger is <strong>in</strong> against the banker unless somebody says otherwise, so an ordinary hole needs nothing but the scores. To change a hole, tap <span class="label">Set up</span> on the hole screen. The sheet shows the field, one card per challenger:</p>
+    <ul>
+      <li><span class="label">In</span>: plays the banker for the hole's wager.</li>
+      <li><span class="label">Passed</span>: the challenger sat this hole out.</li>
+      <li><span class="label">Not faced</span>: the banker didn't take this challenger on.</li>
+      <li><span class="label">Everyone in</span> puts them all back. With <span class="label">High-Risk Banker</span> on, nobody can sit a hole out.</li>
+    </ul>
+    <p>Each live match is decided on its own: the lower score wins the wager from the other, and a tie pays nothing. A match that was passed or not faced pays nothing either.</p>
+    <ul>
+      <li><strong>Blind Banker:</strong> switch it on in the sheet before the hole, and every match on the hole is worth double.</li>
+      <li><strong>Hammer:</strong> either player in a match can hammer it, doubling that match only (tripling on a par 3 with <span class="label">Par 3s triple</span> on). The other player takes it, hammers back to double it again, or concedes. A conceded match pays what it was worth <em>before</em> the hammer that was turned down, with no scores needed. The banker's other matches on the hole are untouched.</li>
+      <li><strong>Table stakes:</strong> the banker sets the wager for their hole in the sheet, inside the range.</li>
+      <li><strong>Mistakes:</strong> "Calls are made before anyone tees off — but fix a mis-recorded one here whenever you spot it, on any hole."</li>
+    </ul>
+
+    <h2 id="presses">Presses</h2>
+    <p>A press is a <strong>new, separate match</strong> between a challenger and a banker, over the holes still to play. It's settled once, as a single bet, and the original matches carry on beside it. The sheet is titled <span class="label">Press the bet</span>.</p>
+    <ul>
+      <li><strong>Who can press:</strong> "You can press anyone you are down to, counting every bet between you."</li>
+      <li><strong>Which holes:</strong> from the hole after the last one anybody has scored, to the end of the round. The bank keeps rotating, and the press is still between the same two players.</li>
+      <li><strong>Amount:</strong> <span class="label">The new bet</span> is 1×, 2× or 3× the wager on the hole just played.</li>
+      <li><strong>How it's won:</strong> hole by hole, like a match. It can end early, for example 3&amp;2.</li>
+      <li><strong>Pressing again:</strong> a second press between the same two players is another new match. A press you're winning counts towards the money between you, so it can stop you pressing that player again.</li>
+    </ul>
+
+    <h2 id="example">Worked example</h2>
+    <p>Alex, Sam, Jordan and Casey play gross, banking <span class="label">In turn</span>, with a <span class="label">Fixed stake</span> of $5 a match. <span class="label">Hammer</span> and <span class="label">Par 3s triple</span> are on, as by default.</p>
+    <div class="ex-wrap"><table class="ex">
+      <tr><th class="l">Hole (par)</th><th>1 (4)</th><th>2 (4)</th><th>3 (3)</th></tr>
+      <tr><td class="l">Banker</td><td>Alex</td><td>Sam</td><td>Jordan</td></tr>
+      <tr><td class="l">Alex</td><td>4 · bank</td><td>5 · lost</td><td class="win">2 · won ×3</td></tr>
+      <tr><td class="l">Sam</td><td>5 · lost</td><td>4 · bank</td><td>3 · halved</td></tr>
+      <tr><td class="l">Jordan</td><td>4 · halved</td><td>passed</td><td>3 · bank</td></tr>
+      <tr><td class="l">Casey</td><td class="win">3 · won</td><td>4 · halved</td><td>4 · lost</td></tr>
+    </table></div>
+    <p>Each cell is the score, then the challenger's result against that hole's banker.</p>
+    <ul>
+      <li><strong>Hole 1:</strong> Alex beats Sam ($5 from Sam), halves with Jordan, and loses to Casey's birdie ($5 to Casey). Alex is level on the hole.</li>
+      <li><strong>Hole 2:</strong> Jordan passes. Sam beats Alex ($5) and halves with Casey.</li>
+      <li><strong>Hole 3</strong> is a par 3. Alex hammers Jordan before the hole, and Jordan takes it, so their match is worth $15. Alex's birdie wins it. Jordan halves with Sam and beats Casey ($5).</li>
+    </ul>
+    <div class="ex-wrap"><table class="ex">
+      <tr><th class="l">Player</th><th>1</th><th>2</th><th>3</th><th>Total</th></tr>
+      <tr><td class="l">Alex</td><td>$0</td><td>−$5</td><td>+$15</td><td class="money">+$10</td></tr>
+      <tr><td class="l">Sam</td><td>−$5</td><td>+$5</td><td>$0</td><td>$0</td></tr>
+      <tr><td class="l">Jordan</td><td>$0</td><td>$0</td><td>−$10</td><td>−$10</td></tr>
+      <tr><td class="l">Casey</td><td>+$5</td><td>$0</td><td>−$5</td><td>$0</td></tr>
+    </table></div>
+    <p>Jordan is now $15 down to Alex, so Jordan could press Alex from hole 4 for $5, $10 or $15.</p>
+
+    <h2 id="settle">Settling up</h2>
+    <ul>
+      <li><strong>Every match is between two people.</strong> The loser pays the winner that match's wager, doubled for a Blind Banker and for each hammer (tripled for each hammer on a par 3 with Par 3s triple on). Nobody can win or lose more than the matches they were in.</li>
+      <li><strong>Your total</strong> is the sum of all your matches, as banker and as challenger, plus any presses.</li>
+      <li><strong>A press</strong> pays its amount once, to whoever wins it.</li>
+      <li><strong>At the end of the round</strong>, a hole still missing a score in a live match pays nothing. A press that hasn't been decided when the round ends pays nothing, even if someone is ahead in it.</li>
+    </ul>
+
+    <h2 id="good-to-know">Good to know</h2>
+    <ul>
+      <li><strong>Picking up</strong> loses your match on the hole, unless the other player also picked up, which is a halve.</li>
+      <li><strong>Mixed tees:</strong> whether a hole is a par 3 for the hammer is decided by the banker's own tee.</li>
+      <li><strong>The banker is fixed once the hole is set.</strong> Changing the tee order mid-round doesn't change who banked the holes already played.</li>
+    </ul>
+
+    <p class="next"><a href="/manual/#games">← All games</a></p>
+  </main>
+
+  <footer class="site">
+    <a href="/manual/">User Manual</a>
+    <a href="/privacy/">Privacy</a>
+    <a href="/terms/">Terms</a>
+    <a href="/delete-account/">Delete Account</a>
+    <a href="mailto:support@golfgames.gg">Contact</a>
+    <div style="margin-top:8px">© 2026 GolfGames. All rights reserved.</div>
+  </footer>
+</body>
+</html>

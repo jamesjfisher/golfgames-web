@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wolf · GolfGames User Manual</title>
+  <meta name="description" content="How Wolf works in GolfGames: the rotating Wolf, taking a partner or going Lone or Blind, the point tables, the low team total, presses, and settling up.">
+  <link rel="canonical" href="https://golfgames.gg/manual/games/wolf/">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="/">Golf<span class="gold">Games</span></a>
+      <nav>
+        <a href="/manual/">User Manual</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/delete-account/">Delete Account</a>
+      </nav>
+    </div>
+  </header>
+  <main class="manual">
+    <div class="crumbs"><a href="/manual/">User Manual</a> › <a href="/manual/#games">Games</a> › Wolf</div>
+    <h1>Wolf</h1>
+    <p class="lede">On every hole one player is the <strong>Wolf</strong>. After watching the others tee off, the Wolf picks a partner for the hole, or goes it alone against everyone for more points. The role moves on every hole, so everybody gets their turn.</p>
+
+    <table class="glance">
+      <tr><th>Players</th><td>4 or 5. With 5, the Wolf and partner play 2 against 3.</td></tr>
+      <tr><th>Scoring</th><td>Best ball on each side decides the hole. Points per the table you choose.</td></tr>
+      <tr><th>Money</th><td><span class="label">What's a point worth</span>: Free, 25¢, $1, $2, $5 or Other. $1 is the default.</td></tr>
+    </table>
+
+    <h2 id="setup">Setting it up</h2>
+    <p>On the <strong>Format</strong> step, add <span class="label">Wolf</span> ("A rotating Wolf picks a partner, or goes alone") and open its options.</p>
+    <ul>
+      <li><span class="label">Who's playing</span>: 4 or 5 of the group. Anyone left out keeps their own card and sits this game out.</li>
+      <li><span class="label">Tee order</span>: the order you drive in, which is also the Wolf rotation. Hole 1's Wolf is first, hole 2's is second, and so on, wrapping around. Move players up or down, then tap <span class="label">Use this order</span>. The round can't start until you do.</li>
+      <li><span class="label">Closing holes</span>: <span class="label">Keep rotating</span> (the default) or <span class="label">Last place is Wolf</span>. See <a href="#closing">Closing holes</a> below.</li>
+      <li><span class="label">Scoring</span> (Gross or Net) and <span class="label">Handicap allowance</span>. In a net game each player gets strokes off their own handicap, after the allowance, then each side takes its best ball.</li>
+      <li><span class="label">Points</span>: <span class="label">Classic</span> (the default), <span class="label">Simple</span>, or <span class="label">Custom</span> to set each value yourself. See <a href="#points">the point tables</a>.</li>
+      <li><span class="label">What's a point worth</span>: the amount each point is paid at.</li>
+      <li><span class="label">Settlement</span> (shown once a point is worth more than $0): <span class="label">Each pair</span> (the default) or <span class="label">Split the pot</span>. See <a href="#settle">Settling up</a>.</li>
+      <li><span class="label">Carry ties over</span> (off by default): "When on, a tied hole doubles the next one instead of washing."</li>
+      <li><span class="label">Low total point</span> (off by default): a second bet on every partnered hole. See <a href="#low-total">Low total point</a>.</li>
+      <li><span class="label">Blind Wolf allowed</span> (on by default): lets the Wolf go solo before anyone tees off, for the most points.</li>
+      <li><span class="label">Take the call in tee order</span> (off by default): "Scoring asks about one player at a time, in the order they drive, instead of showing every partner at once. A player passed over is out for that hole."</li>
+    </ul>
+    <p>Wolf can't share a round with Four-Ball, Abilene, Banker, 6-6-6 or Vegas.</p>
+
+    <h2 id="scoring">How a hole is scored</h2>
+    <p>The Wolf tees off first and then decides. On the hole screen, the Wolf band asks "Who did they take?". Tap one player's name, or one of:</p>
+    <ul>
+      <li><strong>A partner:</strong> the Wolf and that player play their best ball against the best ball of the rest, "the pack".</li>
+      <li><span class="label">Lone Wolf</span>: the Wolf plays alone against everyone, after seeing the tee shots.</li>
+      <li><span class="label">Blind</span>: the Wolf goes alone before anyone tees off. It can only be chosen while the hole has no scores yet.</li>
+    </ul>
+    <p>Each side counts its lowest score. The lower side wins the hole and its players take the points. A tied hole scores nothing for anyone, unless <span class="label">Carry ties over</span> is on.</p>
+    <ul>
+      <li><strong>No call, no points:</strong> a hole where nobody recorded the Wolf's choice scores nothing, even with every score in. The band says so: "No call yet — this hole scores nothing for anyone until somebody is named."</li>
+      <li><strong>Changing the call:</strong> tap a different choice ("Change the call:") at any time to correct a mistake. Blind still needs a hole with no scores.</li>
+      <li><strong>Carry ties over:</strong> each tie adds one to the next hole's multiplier, so one tie doubles the next hole and two in a row triple it. A hole nobody called doesn't carry.</li>
+    </ul>
+
+    <h3 id="points">The point tables</h3>
+    <div class="ex-wrap"><table class="ex">
+      <tr><th class="l">Outcome</th><th>Classic</th><th>Simple</th></tr>
+      <tr><td class="l"><span class="label">Partnered Wolf wins</span></td><td>2 each</td><td>1 each</td></tr>
+      <tr><td class="l"><span class="label">Beat a partnered Wolf</span></td><td>3 each</td><td>1 each</td></tr>
+      <tr><td class="l"><span class="label">Lone Wolf wins</span></td><td>4</td><td>2</td></tr>
+      <tr><td class="l"><span class="label">Blind Wolf wins</span></td><td>6</td><td>3</td></tr>
+      <tr><td class="l"><span class="label">Beat a solo Wolf</span></td><td>1 each</td><td>1 each</td></tr>
+    </table></div>
+    <p>"Each" means every player on the winning side gets that many. A solo Wolf is a Lone or Blind Wolf. Only the winning side is given points. The settle-up then turns everyone's points into money against each other.</p>
+
+    <h3 id="low-total">Low total point</h3>
+    <p>With <span class="label">Low total point</span> on, every partnered hole carries a second bet. Each side adds its best 2 scores, and the lower total wins the same points again from the table. With five players the pack counts its best 2 of 3.</p>
+    <ul>
+      <li>Lone and Blind Wolf holes are low ball only.</li>
+      <li>A tied total pays nothing and never carries. Only a tied low ball carries.</li>
+      <li>The two bets can go to opposite sides on the same hole. The scorecard's Wolf tab then shows a <strong>Low ball</strong> row and a <strong>Total</strong> row.</li>
+    </ul>
+
+    <h3 id="closing">Closing holes</h3>
+    <p>Eighteen holes don't divide evenly by four or five, so some players get an extra turn as Wolf.</p>
+    <ul>
+      <li><span class="label">Keep rotating</span>: the order carries on to the last hole. With four players, the first two in the order are Wolf again on 17 and 18.</li>
+      <li><span class="label">Last place is Wolf</span>: everybody gets the same number of turns, then the leftover holes go to whoever is down the most money when the hole starts. With four players that's 17 and 18, and with five it's 16, 17 and 18. If two are tied for last, the group picks.</li>
+    </ul>
+
+    <h2 id="presses">Presses</h2>
+    <p>A press raises what a point is worth for the whole game, from a hole you choose to the end of the round. The sheet is titled <span class="label">Press the bet</span>.</p>
+    <ul>
+      <li><strong>Who can press:</strong> "Only the player in last place can press, and the stake can never come back down." Last place is counted in money, with earlier presses included. Ties for last can all press.</li>
+      <li><strong>From which hole:</strong> <span class="label">Starts on</span> can be any hole of the round, including one already played. Holes before it keep their old amount.</li>
+      <li><strong>Amount:</strong> <span class="label">Dollars a point</span>, at least one step above the amount in force: $1 a step, or 25¢ a step below $1.</li>
+      <li><strong>Not offered</strong> on a Wolf played for nothing. Nobody can press until a hole has a score.</li>
+    </ul>
+
+    <h2 id="example">Worked example</h2>
+    <p>Alex, Sam, Jordan and Casey play gross, in that tee order. <span class="label">Points</span> Classic, $1 a point, <span class="label">Split the pot</span>, with <span class="label">Low total point</span> on.</p>
+    <div class="ex-wrap"><table class="ex">
+      <tr><th class="l">Hole (par)</th><th>1 (4)</th><th>2 (4)</th><th>3 (3)</th><th>4 (5)</th></tr>
+      <tr><td class="l">The call</td><td>Alex takes Sam</td><td>Sam, Lone Wolf</td><td>Jordan takes Alex</td><td>Casey takes Jordan</td></tr>
+      <tr><td class="l">Alex</td><td class="win">4</td><td class="win">4</td><td>5</td><td>5</td></tr>
+      <tr><td class="l">Sam</td><td class="win">4</td><td>5</td><td>3</td><td>6</td></tr>
+      <tr><td class="l">Jordan</td><td>5</td><td>5</td><td class="win">2</td><td>6</td></tr>
+      <tr><td class="l">Casey</td><td>5</td><td>6</td><td>3</td><td>5</td></tr>
+      <tr><td class="l">Low ball</td><td>Wolf 4–5</td><td>Pack 4–5</td><td>Wolf 2–3</td><td>Tie 5–5</td></tr>
+      <tr><td class="l">Low total</td><td>Wolf 8–10</td><td>–</td><td>Pack 6–7</td><td>Tie 11–11</td></tr>
+    </table></div>
+    <ul>
+      <li><strong>Hole 1:</strong> Alex and Sam win both bets, 2 points each per bet. Each scores 4, and Jordan and Casey pay the 8 between them: $4 each.</li>
+      <li><strong>Hole 2:</strong> Sam goes Lone Wolf and loses to Alex's 4. The pack scores 1 each, and Sam pays all 3.</li>
+      <li><strong>Hole 3:</strong> the bets split. Jordan's birdie wins the low ball for Jordan and Alex (2 each, paid by Sam and Casey). Sam and Casey's 3 + 3 beats 2 + 5 on the total (3 each, paid by Jordan and Alex). Each bet is its own pot, so Sam and Casey come out $1 up and Jordan and Alex $1 down.</li>
+      <li><strong>Hole 4:</strong> both bets tie, so it scores nothing.</li>
+    </ul>
+    <div class="ex-wrap"><table class="ex">
+      <tr><th class="l">Split the pot</th><th>1</th><th>2</th><th>3</th><th>4</th><th>Total</th></tr>
+      <tr><td class="l">Alex</td><td>+$4</td><td>+$1</td><td>−$1</td><td>$0</td><td class="money">+$4</td></tr>
+      <tr><td class="l">Sam</td><td>+$4</td><td>−$3</td><td>+$1</td><td>$0</td><td class="money">+$2</td></tr>
+      <tr><td class="l">Jordan</td><td>−$4</td><td>+$1</td><td>−$1</td><td>$0</td><td>−$4</td></tr>
+      <tr><td class="l">Casey</td><td>−$4</td><td>+$1</td><td>+$1</td><td>$0</td><td>−$2</td></tr>
+    </table></div>
+    <p>Played <span class="label">Each pair</span> instead, the same four holes give Alex and Sam 7 points each, Jordan 3 and Casey 4. Each pair settles the difference, so Alex and Sam are <strong>+$7</strong> each, Jordan <strong>−$9</strong> and Casey <strong>−$5</strong>.</p>
+
+    <h2 id="settle">Settling up</h2>
+    <ul>
+      <li><span class="label">Each pair</span>: "Every player settles with every other on the difference in points, so a point is worth the stake from each player behind you."</li>
+      <li><span class="label">Split the pot</span>: "Each hole is settled on its own. The winners collect their points at the stake, and the losers share the cost evenly." With Low total point on, each bet on a hole is its own pot. A share that doesn't divide evenly is rounded to whole cents, and the round still adds up to zero.</li>
+      <li><strong>Presses:</strong> each hole is paid at the amount in force for it.</li>
+      <li><strong>At the end of the round</strong>, only holes that were decided count. A hole nobody called, or one still missing a score, pays nothing.</li>
+    </ul>
+
+    <h2 id="good-to-know">Good to know</h2>
+    <ul>
+      <li><strong>Picking up</strong> gives your side no ball. If your partner or the pack still has a score, that's the side's ball; a side with no ball at all loses the hole. In the low total, a pick-up counts as a net double bogey.</li>
+      <li><strong>Five players:</strong> "Five in the Wolf plays 2 against 3 — the Wolf still takes one partner, and the other three play as the pack." A Lone Wolf plays all four.</li>
+      <li><strong>The Wolf is fixed once the hole is called.</strong> Correcting an earlier score later doesn't change who was Wolf, even on a <span class="label">Last place is Wolf</span> hole.</li>
+    </ul>
+
+    <p class="next"><a href="/manual/#games">← All games</a></p>
+  </main>
+
+  <footer class="site">
+    <a href="/manual/">User Manual</a>
+    <a href="/privacy/">Privacy</a>
+    <a href="/terms/">Terms</a>
+    <a href="/delete-account/">Delete Account</a>
+    <a href="mailto:support@golfgames.gg">Contact</a>
+    <div style="margin-top:8px">© 2026 GolfGames. All rights reserved.</div>
+  </footer>
+</body>
+</html>
