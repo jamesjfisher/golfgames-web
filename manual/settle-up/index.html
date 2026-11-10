@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Settle up &amp; ledger · GolfGames User Manual</title>
+  <meta name="description" content="Settling up in GolfGames: who pays whom after a round, fewest payments, your ledger of tabs by golfer, recording cash and Venmo payments, and confirming them.">
+  <link rel="canonical" href="https://golfgames.gg/manual/settle-up/">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="/">Golf<span class="gold">Games</span></a>
+      <nav>
+        <a href="/manual/">User Manual</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/delete-account/">Delete Account</a>
+      </nav>
+    </div>
+  </header>
+  <main class="manual">
+    <div class="crumbs"><a href="/manual/">User Manual</a> › Settle up &amp; ledger</div>
+    <h1>Settle up &amp; ledger</h1>
+    <p class="lede">GolfGames works out who pays whom when a round ends, and keeps a running tab with each golfer until you settle up. Settling up is free.</p>
+    <p>GolfGames only keeps the record. No money moves through the app: you pay in cash or in Venmo, then record it.</p>
+
+    <h2 id="who-pays-whom">Who pays whom</h2>
+    <p>When a round has games played for an amount, its summary and round details show two sections under the game cards:</p>
+    <ul>
+      <li><strong>WHO PAYS WHOM</strong>: the payments that settle the round, for example <em>Casey → Alex</em>, <em>Casey pays Alex</em>, $8. The heading notes how many payments there are. If nobody owes anything it says <em>All square. Nobody pays anyone.</em></li>
+      <li><strong>NET FOR THE ROUND</strong>: each player's total across every game. With two or more games, each player's row also shows what they won or lost in each one.</li>
+    </ul>
+    <p>Before the round is finished, the figures are what the round would settle to so far, and the heading shows the hole it runs through, such as <em>Thru 12</em>.</p>
+    <p>Only players in the round see these amounts. A friend following the round, or looking at it afterwards, sees the scores and results but no amounts.</p>
+
+    <h3 id="fewest">Fewest payments</h3>
+    <p>GolfGames adds up each player's result across all the games, then settles the round in as few payments as it can. So a payment can go to someone you did not play a game against. When that happens the card says so: <em>Simplified across every game, so a payment can go to someone you didn't bet against. Everyone still ends up with their net.</em></p>
+    <h3 id="example">Worked example</h3>
+    <p>Alex, Sam and Casey play two games. In the first, Alex wins $10 from Sam. In the second, Sam wins $8 from Casey.</p>
+    <div class="ex-wrap"><table class="ex">
+      <tr><th class="l">Player</th><th>First game</th><th>Second game</th><th>Net</th></tr>
+      <tr><td class="l">Alex</td><td>+$10</td><td>$0</td><td class="win">+$10</td></tr>
+      <tr><td class="l">Sam</td><td>−$10</td><td>+$8</td><td>−$2</td></tr>
+      <tr><td class="l">Casey</td><td>$0</td><td>−$8</td><td>−$8</td></tr>
+    </table></div>
+    <p>Who pays whom: <strong>Casey pays Alex $8</strong> and <strong>Sam pays Alex $2</strong>. Two payments.</p>
+    <p>Casey lost $8 to Sam but pays Sam nothing. Sam's $8 win already counts in Sam's net of <span class="money">−$2</span>, so everyone still ends up exactly where their games left them.</p>
+
+    <h2 id="end-of-round">Settling up as the round ends</h2>
+    <p>When you tap <strong>End Round</strong> and your games leave an amount between you and another player, <strong>Settle up before saving</strong> lists each payment you are part of. Mark each one:</p>
+    <ul>
+      <li><strong>Paid</strong>, if it was settled on the course. It goes on your ledger with a cash payment against it. With another golfer, they confirm that payment, as for any <a href="#confirm">recorded payment</a>. With a guest, it is settled at once.</li>
+      <li><strong>On the tab</strong>, if it was not. It goes on your ledger as owed.</li>
+    </ul>
+    <p>Then tap <strong>Save Round</strong>. Payments between two other players are theirs to mark. See <a href="/manual/playing-a-round/#settle">Playing a round</a> for ending or abandoning a round with amounts in it.</p>
+
+    <h2 id="ledger">Your ledger</h2>
+    <p>Open it from <strong>Profile</strong> › <strong>Ledger</strong>. The row shows your overall balance and, when someone has recorded a payment for you to confirm, a line such as <em>1 golfer waiting to confirm</em>.</p>
+    <p>The top of the ledger shows <strong>Net across all golfers</strong>, split into <strong>Owed to you</strong> and <strong>You owe</strong>. Below it:</p>
+    <ul>
+      <li><strong>OPEN TABS</strong>: everyone you have a balance with, largest first. Each row says <em>owes you $43</em> or <em>you owe $8</em>, how many rounds the tab covers, and <em>Confirm $20?</em> when a payment is waiting for you.</li>
+      <li><strong>Settled · <em>N</em> golfers</strong>: golfers you are all square with. Tap it to show them.</li>
+    </ul>
+    <p>Before you have played a round with amounts in it, the ledger says <em>No tabs yet</em>.</p>
+
+    <h3 id="tabs">How a tab adds up</h3>
+    <p>A tab is everything between you and one golfer, across every round you have played together. If Mike owes you $20 from Saturday and you owe him $8 from Sunday, the tab reads <em>Mike owes you $12</em>. Amounts are added to the tab when the round is saved.</p>
+    <p>A guest (someone in the round without a GolfGames account) gets a separate tab for each round, shown as their name followed by <em>(guest)</em> and the date of the round, because a guest cannot be matched from one round to the next.</p>
+
+    <h2 id="tab-detail">A golfer's tab</h2>
+    <p>Tap a row to open that tab. The top shows the balance, such as <em>Mike owes you $12</em> or <em>You owe Dave $8</em>, and how many rounds are unsettled. <strong>HISTORY</strong> lists every round and payment on the tab, newest first, and marks each time it came back to zero with <strong>Settled up</strong>.</p>
+
+    <h2 id="record">Recording a payment</h2>
+    <p>On a tab with a balance, tap <strong>Record payment</strong>. The sheet is titled <em>Mike paid you</em> or <em>You paid Mike</em>, depending on who owes.</p>
+    <ol>
+      <li>Choose <strong>Full</strong>, for the whole balance, or <strong>Part</strong> and type the amount. You cannot record more than the tab's balance.</li>
+      <li>Choose how it was paid: <strong>Cash</strong> or <strong>Venmo</strong>. A guest's tab offers cash only.</li>
+      <li>Tap the button, for example <strong>Record $12 cash</strong>.</li>
+    </ol>
+    <p>With another golfer, the payment waits for them to confirm it: <em>Mike will get a notification to confirm.</em> With a guest, it comes off the tab straight away.</p>
+    <p>No signal? The payment is saved on your phone, shows as <em>Not sent yet</em>, and is sent when you are back online.</p>
+
+    <h3 id="venmo">Paying in Venmo</h3>
+    <p>When you owe someone, choosing <strong>Venmo</strong> changes the button to <strong>Open Venmo · $12</strong>. Venmo opens with the amount filled in and, if the golfer has added their Venmo username, with them as the recipient. Otherwise pick them in Venmo yourself. Opening Venmo records nothing.</p>
+    <p>Come back to GolfGames after paying and it asks <strong>Did you send it?</strong> Tap <strong>Yes, record $12</strong> to record the payment, or <strong>No, I didn't send it</strong>. It asks only if you come back within 30 minutes with the tab still open. If it does not ask, record the payment with <strong>Record payment</strong>.</p>
+    <p>When someone has paid you in Venmo, choose <strong>Venmo</strong> to record it. Nothing opens.</p>
+    <div class="tip">To be paid in Venmo, add your Venmo username in <a href="/manual/getting-started/#edit-profile">Edit Profile</a>. Only your friends can see it.</div>
+
+    <h2 id="confirm">Confirming a payment</h2>
+    <p>When another golfer records a payment with you, you get a notification (if <strong>Payments</strong> is on in your notification settings) and their tab shows a <strong>Waiting on you</strong> card, for example <em>$20 cash from Mike</em> with what the balance will be once it is confirmed.</p>
+    <ul>
+      <li><strong>Confirm</strong> applies the payment to the tab.</li>
+      <li><strong>I didn't get it</strong> (or <strong>I didn't pay it</strong>, when they say you paid them) sends it back. It shows in the history as <em>not received</em>, and the balance does not change.</li>
+    </ul>
+    <p>Nothing changes until you confirm. Until then the payment shows in both histories as pending, and the person who recorded it sees it as waiting on you. Confirming needs a connection.</p>
+    <p class="next"><a href="/manual/">← Back to the User Manual</a></p>
+  </main>
+
+  <footer class="site">
+    <a href="/manual/">User Manual</a>
+    <a href="/privacy/">Privacy</a>
+    <a href="/terms/">Terms</a>
+    <a href="/delete-account/">Delete Account</a>
+    <a href="mailto:support@golfgames.gg">Contact</a>
+    <div style="margin-top:8px">© 2026 GolfGames. All rights reserved.</div>
+  </footer>
+</body>
+</html>
