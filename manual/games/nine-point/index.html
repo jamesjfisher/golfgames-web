@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>9-Point · GolfGames User Manual</title>
+  <meta name="description" content="How 9-Point works in GolfGames: three players split nine points a hole, 5-3-1, with optional Sweep and Birdie bonus, presses, and settling up.">
+  <link rel="canonical" href="https://golfgames.gg/manual/games/nine-point/">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="/">Golf<span class="gold">Games</span></a>
+      <nav>
+        <a href="/manual/">User Manual</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/delete-account/">Delete Account</a>
+      </nav>
+    </div>
+  </header>
+  <main class="manual">
+    <div class="crumbs"><a href="/manual/">User Manual</a> › <a href="/manual/#games">Games</a> › 9-Point</div>
+    <h1>9-Point</h1>
+    <p class="lede">A game for a threesome. Every hole is worth <strong>9 points</strong>: the best score takes 5, the next 3 and the worst 1. It's sometimes called Nines or 5-3-1.</p>
+
+    <table class="glance">
+      <tr><th>Players</th><td>Exactly 3</td></tr>
+      <tr><th>Scoring</th><td>9 points a hole, split 5-3-1 by finishing order</td></tr>
+      <tr><th>Money</th><td><span class="label">What a point is worth</span>: Free, $0.25, $1, $2 or Custom. $1 is the default.</td></tr>
+    </table>
+
+    <h2 id="setup">Setting it up</h2>
+    <p>On the <strong>Format</strong> step, add <span class="label">9-Point</span> and open its options.</p>
+    <ul>
+      <li><span class="label">Who's playing</span>: exactly three. "9-Point is played by exactly three. Anyone else in the group keeps their own card and sits this bet out." With only two in the group it's listed as needing 3 players.</li>
+      <li><span class="label">Scoring</span> (Gross or Net) and <span class="label">Handicap allowance</span>. Net uses the difference: the lowest handicap of the three plays off scratch and the others get the difference, after the allowance.</li>
+      <li><span class="label">Sweep 9-0-0</span> (off by default): "Beat both others by 2 strokes or more and take all 9 points."</li>
+      <li><span class="label">Birdie bonus 7-1-1</span> (off by default): "The only birdie or better on a hole scores 7-1-1. Counted gross, even in a net game."</li>
+      <li><span class="label">What a point is worth</span>: the amount each point is paid at.</li>
+      <li><span class="label">Settlement</span> (shown once a point is worth more than $0): <span class="label">Each pair</span> (the default) or <span class="label">Split the pot</span>. See <a href="#settle">Settling up</a>.</li>
+    </ul>
+
+    <h2 id="scoring">How a hole is scored</h2>
+    <p>Once all three have a score, the hole's 9 points are shared out:</p>
+    <ul>
+      <li><strong>Finishing order:</strong> 5 to the best score, 3 to the next, 1 to the worst.</li>
+      <li><strong>Ties share the places they fill:</strong> two tied for best take 4 each and the third takes 1 (4-4-1). Two tied for worst take 2 each behind a 5 (5-2-2). All three tied take 3 each (3-3-3).</li>
+      <li><strong>Sweep</strong>, if on: a player who beats <em>both</em> others by 2 strokes or more takes all 9 (9-0-0).</li>
+      <li><strong>Birdie bonus</strong>, if on: when exactly one player makes birdie or better (gross), the hole scores 7-1-1, whatever the order of the other two. If two players make birdie, it's scored by finishing order.</li>
+      <li><strong>Both on:</strong> a sweep beats a birdie.</li>
+    </ul>
+    <p>The hole screen shows the split as soon as the third score goes in, for example <strong>5-3-1</strong>, <strong>Tie · 4-4-1</strong>, <strong>Birdie bonus · 7-1-1</strong> or <strong>Sweep · 9-0-0</strong>.</p>
+
+    <h2 id="presses">Presses</h2>
+    <p>A press raises what a point is worth for the whole game, from a hole you choose to the end of the round. It works exactly like Wolf's. The sheet is titled <span class="label">Press the bet</span>.</p>
+    <ul>
+      <li><strong>Who can press:</strong> only the player in last place, counted in money with earlier presses included. Players tied for last can all press.</li>
+      <li><strong>From which hole:</strong> <span class="label">Starts on</span> can be any hole of the round, including one already played. Holes before it keep their old amount, and the amount can never come back down.</li>
+      <li><strong>Amount:</strong> <span class="label">Dollars a point</span>, at least one step above the amount in force: $1 a step, or 25¢ a step below $1.</li>
+      <li><strong>Not offered</strong> on a 9-Point played for nothing. Nobody can press until a hole has a score.</li>
+    </ul>
+
+    <h2 id="example">Worked example</h2>
+    <p>Alex, Sam and Jordan play gross, $1 a point, with <span class="label">Sweep 9-0-0</span> and <span class="label">Birdie bonus 7-1-1</span> both on.</p>
+    <div class="ex-wrap"><table class="ex">
+      <tr><th class="l">Hole (par)</th><th>1 (4)</th><th>2 (4)</th><th>3 (3)</th><th>4 (5)</th><th>Points</th></tr>
+      <tr><td class="l">Alex</td><td class="win">4 · 5</td><td class="win">5 · 4</td><td>3 · 1</td><td>6 · 0</td><td>10</td></tr>
+      <tr><td class="l">Sam</td><td>5 · 3</td><td class="win">5 · 4</td><td>3 · 1</td><td class="win">4 · 9</td><td>17</td></tr>
+      <tr><td class="l">Jordan</td><td>6 · 1</td><td>6 · 1</td><td class="win">2 · 7</td><td>7 · 0</td><td>9</td></tr>
+      <tr><td class="l">Split</td><td>5-3-1</td><td>Tie · 4-4-1</td><td>Birdie bonus · 7-1-1</td><td>Sweep · 9-0-0</td><td></td></tr>
+    </table></div>
+    <p>Each cell is the score, then the points.</p>
+    <ul>
+      <li><strong>Hole 1</strong> goes 5-3-1 by finishing order. Alex wins by only one stroke, so it's no sweep.</li>
+      <li><strong>Hole 2:</strong> Alex and Sam tie for best and share 5 + 3, 4 each.</li>
+      <li><strong>Hole 3:</strong> Jordan makes the only birdie, so the hole scores 7-1-1.</li>
+      <li><strong>Hole 4:</strong> Sam's birdie 4 beats both others by 2 or more. That's a sweep, and a sweep beats a birdie: 9-0-0.</li>
+    </ul>
+    <div class="ex-wrap"><table class="ex">
+      <tr><th class="l">Player</th><th>Points</th><th>Each pair</th><th>Split the pot</th></tr>
+      <tr><td class="l">Alex</td><td>10</td><td>−$6</td><td>−$2</td></tr>
+      <tr><td class="l">Sam</td><td>17</td><td class="money">+$15</td><td class="money">+$5</td></tr>
+      <tr><td class="l">Jordan</td><td>9</td><td>−$9</td><td>−$3</td></tr>
+    </table></div>
+    <p>Each pair: Sam is 7 up on Alex and 8 up on Jordan, so collects $15. Alex is 1 up on Jordan and 7 down to Sam, so pays $6. Split the pot comes to a third of each figure.</p>
+
+    <h2 id="settle">Settling up</h2>
+    <ul>
+      <li><span class="label">Each pair</span>: "Each pair settles the difference in their points, so 5-3-1 pays +6, 0 and −6."</li>
+      <li><span class="label">Split the pot</span>: "Each hole is settled against its average of 3 points, so 5-3-1 pays +2, 0 and −2." It always comes to a third of the Each pair figure.</li>
+      <li><strong>Presses:</strong> each hole is paid at the amount in force for it.</li>
+      <li><strong>At the end of the round</strong>, only holes all three finished count. A partial or nine-hole round settles what was played.</li>
+    </ul>
+
+    <h2 id="good-to-know">Good to know</h2>
+    <ul>
+      <li><strong>Picking up</strong> scores a net double bogey for the hole. If all three pick up, it's 3-3-3.</li>
+      <li><strong>The Birdie bonus is always gross.</strong> In a net game, a gross birdie counts for whoever makes it, strokes or not, and a net birdie doesn't.</li>
+      <li><strong>An eagle counts as a birdie</strong> for the bonus.</li>
+    </ul>
+
+    <p class="next"><a href="/manual/#games">← All games</a></p>
+  </main>
+
+  <footer class="site">
+    <a href="/manual/">User Manual</a>
+    <a href="/privacy/">Privacy</a>
+    <a href="/terms/">Terms</a>
+    <a href="/delete-account/">Delete Account</a>
+    <a href="mailto:support@golfgames.gg">Contact</a>
+    <div style="margin-top:8px">© 2026 GolfGames. All rights reserved.</div>
+  </footer>
+</body>
+</html>
