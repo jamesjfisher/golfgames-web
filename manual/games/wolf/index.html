@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Wolf · GolfGames User Manual</title>
-  <meta name="description" content="How Wolf works in GolfGames: the rotating Wolf, taking a partner or going Lone or Blind, the point tables, the low team total, presses, and settling up.">
+  <meta name="description" content="How Wolf works in GolfGames: the rotating Wolf, taking a partner or going Lone or Blind, turning the Wolf down, the point tables, the low team total, presses, and settling up.">
   <link rel="canonical" href="https://golfgames.gg/manual/games/wolf/">
   <link rel="stylesheet" href="/styles.css">
 </head>
@@ -44,6 +44,7 @@
       <li><span class="label">Carry ties over</span> (off by default): "When on, a tied hole doubles the next one instead of washing."</li>
       <li><span class="label">Low total point</span> (off by default): a second bet on every partnered hole. See <a href="#low-total">Low total point</a>.</li>
       <li><span class="label">Blind Wolf allowed</span> (on by default): lets the Wolf go solo before anyone tees off, for the most points.</li>
+      <li><span class="label">Partner can turn down the Wolf</span> (off by default): "If they do, they play the hole alone as the Lone Wolf against everyone else". See <a href="#turn-down">Turning the Wolf down</a>.</li>
       <li><span class="label">Take the call in tee order</span> (off by default): "Scoring asks about one player at a time, in the order they drive, instead of showing every partner at once. A player passed over is out for that hole."</li>
     </ul>
     <p>Wolf can't share a round with Four-Ball, Abilene, Banker, 6-6-6 or Vegas.</p>
@@ -64,6 +65,17 @@
       <li><strong>No call, no points:</strong> a hole where nobody recorded the Wolf's choice scores nothing, even with every score in. The band says so: "No call yet — this hole scores nothing for anyone until somebody is named."</li>
       <li><strong>Changing the call:</strong> tap a different choice ("Change the call:") at any time to correct a mistake. Blind still needs a hole with no scores.</li>
       <li><strong>Carry ties over:</strong> each tie adds one to the next hole's multiplier, so one tie doubles the next hole and two in a row triple it. A hole nobody called doesn't carry.</li>
+    </ul>
+
+    <h3 id="turn-down">Turning the Wolf down</h3>
+    <p>With <span class="label">Partner can turn down the Wolf</span> on, the player the Wolf picks gets a say. Once a partner is tapped, the band shows a second row, "Sam's answer", with <span class="label">In with Alex</span> already selected and <span class="label">Turn down · Lone 4</span> beside it (the number is your Lone Wolf points).</p>
+    <ul>
+      <li><strong>Turning it down:</strong> the picked player plays the hole alone as the Lone Wolf against everyone else, including the Wolf who picked them. The band reads "Sam turned down Alex".</li>
+      <li><strong>It pays exactly as a Lone Wolf does:</strong> <span class="label">Lone Wolf wins</span> if they win, <span class="label">Beat a solo Wolf</span> to each of the others if they lose. There is no separate price.</li>
+      <li><strong>Only before the hole has a score.</strong> Once anyone's score is down on the hole, the answer row goes away. <span class="label">Undo</span> puts the partner back in with the Wolf, under the same rule: "A turn-down can only be undone before anyone has a score on this hole."</li>
+      <li><strong>Lone and Blind calls</strong> can't be turned down; there is no partner to answer.</li>
+      <li>With <span class="label">Take the call in tee order</span> on, the prompt asks "Alex took Sam. Is Sam in?" with <span class="label">Sam's in</span> and <span class="label">Sam turns it down · Lone 4</span>.</li>
+      <li>The hole still counts as the original Wolf's turn. On the scorecard's Wolf row, the player who turned it down is shown with a ✕ after their name.</li>
     </ul>
 
     <h3 id="points">The point tables</h3>
