@@ -224,6 +224,7 @@ main.manual .soon {
   vertical-align: middle;
   white-space: nowrap;
 }
+main.manual p > .soon:first-child { margin-left: 0; }
 main.manual .shots {
   display: grid;
   grid-template-columns: 1fr;
