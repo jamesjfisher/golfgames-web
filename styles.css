@@ -210,6 +210,20 @@ main.manual .tip {
   margin: 16px 0;
   font-size: 15px;
 }
+main.manual .soon {
+  display: inline-block;
+  background: #fff8e1;
+  border: 1px solid var(--gold);
+  color: var(--green-dark);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 0 8px;
+  border-radius: 999px;
+  margin-left: 6px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
 main.manual .shots {
   display: grid;
   grid-template-columns: 1fr;
